@@ -4,6 +4,7 @@ function minimum(numbers){
     let min_num = numbers[0];
 
     for(const num of numbers){
+        console.log(numbers);
         if(num < min_num){
             min_num = num;
         }
